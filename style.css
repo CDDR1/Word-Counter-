@@ -12,6 +12,11 @@ body {
     text-align: center;
 }
 
+h1 {
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 40px;
+}
+
 #input-area {
     width: 700px;
     height: 300px;
