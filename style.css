@@ -1,4 +1,48 @@
+body {
+    background-color: #030a5a;
+    color: white;
+}
+
 .website-container {
     display: flex;
     justify-content: center;
+}
+
+.word-counter-container h1 {
+    text-align: center;
+}
+
+#input-area {
+    width: 700px;
+    height: 300px;
+}
+
+.counter-flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.counter-container {
+    color:black;    
+    background-color: #030a5a;
+    width: 200px;
+    text-align: center;
+}
+
+.counter-container h3 {
+    border: 2px solid black;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.words {
+    font-size: 23px;
+}
+
+#counter-count {
+    position: relative;
+    bottom: 25px;
 }

@@ -1,7 +1,7 @@
 const inputButton = document.getElementById("input-btn");
 const clearButton = document. getElementById("clear-btn");
 const counter = document.getElementById("counter-count");
-const input = document.getElementById("input-bar");
+const input = document.getElementById("input-area");
 
 
 inputButton.addEventListener("click", () => {
