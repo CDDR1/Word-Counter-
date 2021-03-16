@@ -5,17 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Word Counter</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <h1>Word Counter</h1>
-        <input id="input-bar" type="text" placeholder="Enter your text here">
-        <button id="input-btn">Count</button>
-        <button id="clear-btn">Clear</button>
-        <br><br><br>
-        <h3>The number of words is:</h3>
-        <h3 id="counter-count">0</h3>
+    <div class="website-container">
+        <div class="word-counter-container">
+            <h1>Word Counter</h1>
+            <input id="input-bar" type="text" placeholder="Enter your text here">
+            <button id="input-btn">Count</button>
+            <button id="clear-btn">Clear</button>
+            <br><br><br>
+            <h3>words:</h3>
+            <h3 id="counter-count">0</h3>
+        </div>
     </div>
+    
 
     <script src="script.js"></script>
 </body>
